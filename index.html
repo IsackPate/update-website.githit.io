@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="sw">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isack Pate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Isack Pate</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Our Services</a></li>
+                <li><a href="#" onclick="switchLanguage()">Language</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="add-product-form">
+            <h2>Ongeza Bidhaa Mpya</h2>
+            <form id="productForm">
+                <input type="text" name="productName" placeholder="Jina la Bidhaa" required><br>
+                <input type="number" name="productPrice" placeholder="Bei" required><br>
+                <input type="file" name="productImage"><br>
+                <button type="submit">Ongeza</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
